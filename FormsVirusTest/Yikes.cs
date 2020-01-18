@@ -34,7 +34,7 @@ namespace FormsVirusTest
             Thread.Sleep(1000);
             Random rand = new Random();
             string videoPath = videos[rand.Next(0, 4)];
-            axWindowsMediaPlayer1.URL = "ricardo.mp4";
+            axWindowsMediaPlayer1.URL = videoPath;
             axWindowsMediaPlayer1.Ctlcontrols.play();
 
             double xOffset = rand.NextDouble();
