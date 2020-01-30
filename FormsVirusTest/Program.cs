@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormsVirusTest
+namespace FormsVideoPlayer
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace FormsVirusTest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Yikes());
+            Application.Run(new MainForm());
         }
     }
 }
